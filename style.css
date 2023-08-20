@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Poppins:wght@100;200;300;400&family=REM:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b8b8b8;
+    height: 40px;
+    box-shadow: 0px 23px 22px 7px #797979;
+}
+
+.instructions {
+    text-transform: uppercase;
+}
+
+.container-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+}
+
+.container-grid > * {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.color {
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hex {
+    background: black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100px;
+}
